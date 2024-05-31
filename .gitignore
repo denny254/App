@@ -1,0 +1,14 @@
+env/ 
+
+
+# Ignore the .co file
+.co
+
+# Ignore compiled Python files
+__pycache__/
+*.vscode
+.pyc
+
+# Ignore the Django static and media directories (if applicable)
+staticfiles/
+media/
