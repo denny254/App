@@ -3,7 +3,7 @@ click==8.1.7
 colorama==0.4.6
 crispy-bootstrap4==2024.1
 dj-database-url==2.2.0
-Django==5.0.6
+django
 django-crispy-forms==2.1
 django-filter==24.2
 gunicorn==22.0.0
