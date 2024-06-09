@@ -6,7 +6,7 @@ dj-database-url==2.2.0
 django
 django-crispy-forms==2.1
 django-filter==24.2
-gunicorn==22.0.0
+gunicorn
 h11==0.14.0
 packaging==24.0
 pillow==10.3.0
