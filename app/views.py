@@ -24,7 +24,7 @@ def home(request):
     return render(request, 'base/index.html', context)
 
 def posts(request):
-	posts = Post.objects.filter(active=True)
+	posts = Post.objects.filter(active=True).order_by('-created') 
 	myFilter = PostFilter(request.GET, queryset=posts)
 	posts = myFilter.qs
 
