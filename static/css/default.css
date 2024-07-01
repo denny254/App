@@ -13,7 +13,7 @@
     --duration: 4s;
 }
 body *{
-    transition: 1.5s;
+    transition: 0.3s;
 }
 
 html,body{
@@ -73,16 +73,14 @@ h6{font-size: 16px;}
     overflow: auto;
 }
 .main-container{
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     
 }
 .greeting-wrapper{
     display: grid;
-
     text-align: center;
     align-content: center;
-   
     min-height: 0.5em;
 }
 .intra-wrapper{
@@ -424,7 +422,7 @@ h6{font-size: 16px;}
 
 @media screen and (max-width:1200px){
     .main-container{
-        width: 100%;
+        width: 95%;
        
     }
     
