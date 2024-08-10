@@ -23,6 +23,7 @@
            <div class="greeting-wrapper">      
                <h1>Hi, I'm Kinanga <b><i>Denny</i></b> </h1>
            </div>
+           
            <div class="intra-wrapper">
           
           {% include 'base/navbar.html' %}
@@ -130,7 +131,10 @@
     </section>
     <section class="s2">
         <div class="main-container">
-            <h3 class="text-center">Get In Touch</h3>
+            <p class="text-center">Hire Me.
+                I am available for freelance 
+                work or any full time job.Connect with me via phone: 0708134496 
+                or just email me through  denniskinanga6@gmail.com</p>
         
             <form id="contact-form" class="container" method="POST" action="{% url 'send_mail' %}">
                 {% csrf_token %}
