@@ -108,7 +108,7 @@
             <h2 style="text-align: center;">Some of my Past Projects</h2>
             <div class="post-wrapper">
                    
-                   {% comment %} {% for post in posts  %} {% endcomment %}
+                   {% for post in posts  %}
                 <div>
                     <div class="post">
                         <img class="thumbnail" src="{% static 'images/profile-2.jpg' %}">
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                  </div>
-                 {% comment %} {% endfor %} {% endcomment %}
+                 {% endfor %}
             </div>
 
         </div>
